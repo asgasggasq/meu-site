@@ -1,0 +1,505 @@
+<style>
+:root {
+    --primary: #8B4513;
+    --secondary: #D2691E;
+    --light: #fff8f0;
+    --dark: #2b2b2b;
+}
+
+.empresa-container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.empresa-hero {
+    background: linear-gradient(135deg, #8B4513, #D2691E);
+    color: white;
+    padding: 70px 25px;
+    text-align: center;
+}
+
+.empresa-hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.empresa-hero p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+.empresa-section {
+    padding: 60px 25px;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.empresa-title {
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.empresa-title h2 {
+    font-size:34px;
+    color:var(--primary);
+    margin-bottom:10px;
+}
+
+.empresa-title span {
+    width:70px;
+    height:4px;
+    background:var(--secondary);
+    display:block;
+    margin:auto;
+}
+
+
+.empresa-text {
+    font-size:18px;
+    line-height:1.8;
+    text-align:justify;
+}
+
+
+.cards {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+
+.card {
+    background:white;
+    padding:35px 25px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+    text-align:center;
+}
+
+.card:hover {
+    transform:translateY(-5px);
+}
+
+
+.card .icon {
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+
+.card h3 {
+    color:var(--primary);
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+
+.card p {
+    line-height:1.7;
+    font-size:16px;
+}
+
+
+.valores {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+
+.valor-item {
+    background:#fff8f0;
+    padding:25px;
+    border-radius:12px;
+    border-left:5px solid var(--secondary);
+}
+
+
+.valor-item h4 {
+    margin:0 0 10px;
+    color:var(--primary);
+    font-size:20px;
+}
+
+
+.valor-item p {
+    margin:0;
+    line-height:1.6;
+}
+
+
+.cnpj-box {
+    background:#fafafa;
+    border-radius:15px;
+    padding:35px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+
+.cnpj-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+
+.cnpj-item {
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+
+.cnpj-item strong {
+    color:var(--primary);
+    display:block;
+    margin-bottom:5px;
+}
+
+
+.footer-empresa {
+    background:#2b2b2b;
+    color:white;
+    padding:35px 20px;
+    text-align:center;
+}
+
+
+@media(max-width:600px){
+
+    .empresa-hero h1{
+        font-size:30px;
+    }
+
+    .empresa-hero p{
+        font-size:16px;
+    }
+
+    .empresa-section{
+        padding:40px 15px;
+    }
+
+    .empresa-title h2{
+        font-size:27px;
+    }
+
+}
+
+</style>
+
+
+<div class="empresa-container">
+
+
+<section class="empresa-hero">
+
+<h1>Lara Carvalho Aguiar</h1>
+
+<p>
+Empresa especializada na fabricação de produtos de padaria e confeitaria,
+com produção própria e compromisso com qualidade, sabor e excelência.
+</p>
+
+</section>
+
+
+
+<section class="empresa-section">
+
+<div class="empresa-title">
+<h2>Descrição da Empresa</h2>
+<span></span>
+</div>
+
+
+<div class="empresa-text">
+
+<p>
+A Lara Carvalho Aguiar atua no segmento alimentício, especializada na fabricação
+de produtos de padaria e confeitaria com predominância de produção própria.
+</p>
+
+<p>
+A empresa tem como propósito oferecer produtos frescos, saborosos e preparados
+com dedicação, utilizando matérias-primas selecionadas e processos que garantem
+qualidade e satisfação aos clientes.
+</p>
+
+<p>
+Com foco na excelência em seus produtos, busca unir tradição, inovação e cuidado
+em cada etapa da produção, proporcionando experiências únicas aos consumidores.
+</p>
+
+
+</div>
+
+</section>
+
+
+
+
+<section class="empresa-section">
+
+<div class="empresa-title">
+<h2>Missão, Visão e Valores</h2>
+<span></span>
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="icon">🎯</div>
+
+<h3>Missão</h3>
+
+<p>
+Produzir produtos de padaria e confeitaria de alta qualidade,
+oferecendo alimentos saborosos, frescos e preparados com dedicação,
+garantindo satisfação e confiança aos clientes.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<div class="icon">🚀</div>
+
+<h3>Visão</h3>
+
+<p>
+Ser reconhecida como referência no segmento de padaria e confeitaria,
+destacando-se pela qualidade, inovação e compromisso com seus clientes.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">⭐</div>
+
+<h3>Valores</h3>
+
+<p>
+Qualidade, satisfação do cliente, responsabilidade, higiene,
+segurança alimentar, inovação e valorização das pessoas.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+<section class="empresa-section">
+
+<div class="empresa-title">
+<h2>Nossos Valores</h2>
+<span></span>
+</div>
+
+
+<div class="valores">
+
+
+<div class="valor-item">
+<h4>Qualidade</h4>
+<p>
+Produtos preparados com excelência e ingredientes selecionados.
+</p>
+</div>
+
+
+<div class="valor-item">
+<h4>Satisfação do Cliente</h4>
+<p>
+Buscar sempre superar expectativas através de produtos e atendimento.
+</p>
+</div>
+
+
+<div class="valor-item">
+<h4>Responsabilidade</h4>
+<p>
+Atuação ética, profissional e comprometida.
+</p>
+</div>
+
+
+<div class="valor-item">
+<h4>Segurança Alimentar</h4>
+<p>
+Rigor nos processos de preparo e manipulação dos alimentos.
+</p>
+</div>
+
+
+<div class="valor-item">
+<h4>Inovação</h4>
+<p>
+Melhoria contínua dos produtos e processos.
+</p>
+</div>
+
+
+<div class="valor-item">
+<h4>Valorização das Pessoas</h4>
+<p>
+Respeito e parceria com clientes e colaboradores.
+</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section class="empresa-section">
+
+
+<div class="empresa-title">
+<h2>Informações do CNPJ</h2>
+<span></span>
+</div>
+
+
+
+<div class="cnpj-box">
+
+
+<div class="cnpj-grid">
+
+
+<div class="cnpj-item">
+<strong>CNPJ</strong>
+64.699.075/0001-95
+</div>
+
+
+<div class="cnpj-item">
+<strong>Razão Social</strong>
+64.699.075 Lara Carvalho Aguiar
+</div>
+
+
+<div class="cnpj-item">
+<strong>Data de Abertura</strong>
+25/01/2026
+</div>
+
+
+<div class="cnpj-item">
+<strong>Porte</strong>
+Microempresa (ME)
+</div>
+
+
+<div class="cnpj-item">
+<strong>Natureza Jurídica</strong>
+213-5 - Empresário (Individual)
+</div>
+
+
+<div class="cnpj-item">
+<strong>Atividade Principal</strong>
+10.91-1-02 - Fabricação de produtos de padaria e confeitaria com predominância de produção própria
+</div>
+
+
+<div class="cnpj-item">
+<strong>Atividades Secundárias</strong>
+Não informadas
+</div>
+
+
+<div class="cnpj-item">
+<strong>Endereço</strong>
+Rua Pastor Valdomiro Oliveira, Nº 750
+</div>
+
+
+<div class="cnpj-item">
+<strong>Bairro</strong>
+Candeias
+</div>
+
+
+<div class="cnpj-item">
+<strong>Município/UF</strong>
+Vitória da Conquista - BA
+</div>
+
+
+<div class="cnpj-item">
+<strong>CEP</strong>
+45.028-742
+</div>
+
+
+<div class="cnpj-item">
+<strong>Email</strong>
+laraaguiar222@gmail.com
+</div>
+
+
+<div class="cnpj-item">
+<strong>Telefone</strong>
+(77) 8655-8626
+</div>
+
+
+<div class="cnpj-item">
+<strong>Situação Cadastral</strong>
+Ativa
+</div>
+
+
+<div class="cnpj-item">
+<strong>Data da Situação Cadastral</strong>
+25/01/2026
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<div class="footer-empresa">
+
+<p>
+© Lara Carvalho Aguiar - Todos os direitos reservados.
+</p>
+
+</div>
+
+
+
+</div>
